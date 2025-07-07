@@ -38,6 +38,7 @@ insurance-charges-predictor
 Dataset: insurance.csv
 
 ▶️ How to Run Locally:
+
 1. Clone the repository
 git clone https://github.com/your-username/insurance-charges-predictor.git
 cd insurance-charges-predictor
