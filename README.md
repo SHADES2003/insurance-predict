@@ -28,9 +28,13 @@ Project structure:
 
 insurance-charges-predictor/
 │
+
 ├── insurance.csv               # Dataset file
+
 ├── app.py                      # Main Streamlit application
+
 ├── requirements.txt            # Python dependencies
+
 └── README.md                   # Project documentation (this file)
 
 Dataset: insurance.csv
