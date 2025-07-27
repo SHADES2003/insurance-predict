@@ -67,7 +67,7 @@ def main():
         }])
         prediction = model.predict(input_data)[0]
 
-        st.success(f"💰 Estimated Insurance Charges: ${prediction:,.2f}")
+        st.success(f"💰 Estimated Insurance Charges: {prediction:,.2f}")
 
         # Visualization
         fig = px.scatter(df, x="bmi", y="charges", color="smoker",
